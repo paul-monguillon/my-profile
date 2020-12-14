@@ -1,0 +1,130 @@
+body {
+	background-color:#79A3B1; 
+	color: #575F7D;
+	font-family: Helvectica;
+	font-size: 17px;
+	font-weight: lighter;
+
+}
+h1,h2,h3 {
+	font-family: Courier;
+	color: black;
+	font-size: 32px;
+}
+
+a{
+	font font-family: 'Roboto', sans-serif;
+	text-decoration: none;
+	color: #6B72E1;
+	font-weight: 600;
+	font-size: 16px;
+}
+a: hover {
+	color: #2e2227;
+}
+
+@media (max-width: 750px) {
+.container{
+	width: 600px;
+	margin: 40px auto;
+   }
+}
+a{
+	color: black;
+}
+
+.container{
+} 
+
+.card{background: #fcf8ec;
+	padding: 40px;
+	margin: 100px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0,1);
+	border-radius: 25px;
+	width: 700px;
+	margin: 40px auto; 
+	text-align: center;
+}
+
+#photonook {
+	height: 100px;
+	width: 100px;
+	object-fit: cover;
+	border-radius: 8px;
+box-shadow:  0 0 20px black
+ }
+ .btn-blue {
+background-color: #DEB887;
+color: white;
+padding: 15px 20px;
+border-radius: 4px;
+ }
+ .btn-blue: hover {
+ 	background-color: #DEB887 
+ 	color:#DEB887;
+ }
+
+ @media (max-width: 750px) {
+.container{
+	width: 600px;
+	margin: 40px auto;
+   }
+}
+
+
+.card1{background: #fcf8ec;
+	padding: 30px;
+	margin: 100px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0,1);
+	border-radius: 25px;
+	width: 700px;
+	margin: 40px auto;
+	text-align: center;
+}
+.card2{background: #fcf8ec;
+	padding: 30px;
+	margin: 100px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0,1);
+	border-radius: 25px;
+	width: 700px;
+	margin: 40px auto;
+	text-align: center;
+}
+.card3{background: #fcf8ec;
+	padding: 30px;
+	margin: 100px;
+	box-shadow: 0px 25px 30px rgba(0,0,0,0,1);
+	border-radius: 25px;
+	width: 700px;
+	margin: 40px auto;
+	text-align: center;
+}
+.card4{background: #fcf8ec;
+	padding: 20px;
+	margin: 100px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0,1);
+	border-radius: 40px;
+	width: 700px;
+	margin: 40px auto;
+}
+
+.list-inline{ 
+list-style: none;
+padding-left: 0px;
+ }
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+.list-inline i:hover {
+font-size: 50px;
+color: #DEB887;
+
+}
+
+#introction p {
+margin-bottom: 30px;
+}
+
+
